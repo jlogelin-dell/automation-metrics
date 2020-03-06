@@ -8,12 +8,13 @@
                 <element inactive_on_update="false" label="vRealize Orchestrator 7.6" value="vro-7_6"/>
             </choice>
         </element>
+        <element label="Customer" max_length="200" name="customer_ref" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution exception message" max_length="200" name="execution_exception_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution input" max_length="200" name="execution_input" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution name" max_length="140" name="execution_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution result" max_length="200" name="execution_result" type="string"/>
         <element label="Execution time" max_length="40" name="execution_time" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Sc category" max_length="140" name="sc_category" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service Center Category" max_length="140" name="sc_category" type="string">
             <choice>
                 <element inactive_on_update="false" label="Monitoring" value="monitoring"/>
                 <element inactive_on_update="false" label="Provisioning" value="provisioning"/>
