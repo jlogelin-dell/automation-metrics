@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="automation_metric" max_length="40" name="x_446314_automet_automation_metric" type="collection">
+        <element attributes="encode_utf8=false" label="Asset ref" max_length="32" name="asset_ref" reference="ci_identifier" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Automation product" max_length="140" name="automation_product" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ScienceLogic SL-1" value="sl-1"/>
+                <element inactive_on_update="false" label="vRealize Orchestrator 7.1" value="vro-7_1"/>
+                <element inactive_on_update="false" label="vRealize Orchestrator 7.6" value="vro-7_6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Execution exception message" max_length="200" name="execution_exception_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Execution input" max_length="200" name="execution_input" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Execution name" max_length="140" name="execution_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Execution result" max_length="200" name="execution_result" type="string"/>
+        <element label="Execution time" max_length="40" name="execution_time" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sc category" max_length="140" name="sc_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monitoring" value="monitoring"/>
+                <element inactive_on_update="false" label="Provisioning" value="provisioning"/>
+                <element inactive_on_update="false" label="Reporting &amp; Dashboarding" value="reporting-dashboarding"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="asset_ref"/>
+        </index>
+    </element>
+</database>
