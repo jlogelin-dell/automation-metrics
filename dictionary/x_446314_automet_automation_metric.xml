@@ -20,6 +20,9 @@
                 <element inactive_on_update="false" label="Isilon Provisioning" value="Isilon Provisioning"/>
             </choice>
         </element>
+        <element label="SL1 Event Id" max_length="240" name="sl1_event_id" type="string"/>
+        <element label="SL1 Event Policy Id" max_length="240" name="sl1_event_policy_id" type="string"/>
+        <element label="SL1 Event Policy Name" max_length="240" name="sl1_event_policy_name" type="string"/>
         <index name="index">
             <element name="asset_ref"/>
         </index>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sl1_event_policy_id" label="SL1 Event Policy Id" language="en" table="x_446314_automet_automation_metric">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sl1_event_policy_id</element>
+            <help/>
+            <hint/>
+            <label>SL1 Event Policy Id</label>
+            <language>en</language>
+            <name>x_446314_automet_automation_metric</name>
+            <plural>SL1 Event Policy Ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-10 14:54:29</sys_created_on>
+            <sys_id>ff344ad42fa300107370d6ab2799b673</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SL1 Event Policy Id</sys_name>
+            <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+            <sys_update_name>sys_documentation_x_446314_automet_automation_metric_sl1_event_policy_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-10 14:54:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
