@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="automation_metric" max_length="40" name="x_446314_automet_automation_metric" type="collection">
+    <element label="Automation Metric" max_length="40" name="x_446314_automet_automation_metric" type="collection">
         <element attributes="encode_utf8=false" label="Asset ref" max_length="32" name="asset_ref" reference="ci_identifier" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Automation product" max_length="140" name="automation_product" type="string">
             <choice>
@@ -16,9 +16,8 @@
         <element label="Execution time" max_length="40" name="execution_time" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service Center Category" max_length="140" name="sc_category" type="string">
             <choice>
-                <element inactive_on_update="false" label="Monitoring" value="monitoring"/>
-                <element inactive_on_update="false" label="Provisioning" value="provisioning"/>
-                <element inactive_on_update="false" label="Reporting &amp; Dashboarding" value="reporting-dashboarding"/>
+                <element inactive_on_update="false" label="DPA Monitoring" value="DPA Monitoring"/>
+                <element inactive_on_update="false" label="Isilon Provisioning" value="Isilon Provisioning"/>
             </choice>
         </element>
         <index name="index">

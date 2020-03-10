@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_446314_automet_service_center</description>
+        <name>x_446314_automet_service_center</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 14:15:59</sys_created_on>
+        <sys_id>f36bfd5c2f6300107370d6ab2799b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_446314_automet_service_center</sys_name>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_update_name>sys_security_acl_f36bfd5c2f6300107370d6ab2799b657</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 14:15:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</application>
+        <file_path/>
+        <instance_id>dcb31d62dbf944943050ac44d49619b4</instance_id>
+        <instance_name>dev96322</instance_name>
+        <name>sys_security_acl_f36bfd5c2f6300107370d6ab2799b657</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_446314_automet_service_center</description><name>x_446314_automet_service_center</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-10 14:15:59</sys_created_on><sys_id>f36bfd5c2f6300107370d6ab2799b657</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_446314_automet_service_center</sys_name><sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package><sys_policy/><sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope><sys_update_name>sys_security_acl_f36bfd5c2f6300107370d6ab2799b657</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-10 14:15:59</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1613781140</payload_hash>
+        <record_name>x_446314_automet_service_center</record_name>
+        <reverted_from/>
+        <source>c447bd942f6300107370d6ab2799b672</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 14:15:59</sys_created_on>
+        <sys_id>bb6bfd5c2f6300107370d6ab2799b659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170c4cd63230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 14:15:59</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f36bfd5ce2630010c68933853b212059</update_guid>
+        <update_guid_history>f36bfd5ce2630010c68933853b212059:-1613781140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 14:49:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>5a7d6376aa2d48ec91e74e9aa23a6e10</sys_id>
+        <sys_metadata>f36bfd5c2f6300107370d6ab2799b657</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_446314_automet_service_center</sys_name>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_parent display_value="">776bfd5c2f6300107370d6ab2799b668</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_scope_delete display_value="">07266785edc241bf87962f1f8822b8b1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f36bfd5c2f6300107370d6ab2799b657</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f36bfd5c2f6300107370d6ab2799b657">bb6bfd5c2f6300107370d6ab2799b659</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 14:49:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
