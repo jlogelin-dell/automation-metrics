@@ -3,7 +3,7 @@
         <element attributes="encode_utf8=false" label="Asset ref" max_length="32" name="asset_ref" reference="ci_identifier" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Automation product" max_length="140" name="automation_product" type="string">
             <choice>
-                <element inactive_on_update="false" label="ScienceLogic SL-1" value="sl-1"/>
+                <element inactive_on_update="false" label="ScienceLogic SL1 8.12.2" value="ScienceLogic SL1 8.12.2"/>
                 <element inactive_on_update="false" label="vRealize Orchestrator 7.1" value="vro-7_1"/>
                 <element inactive_on_update="false" label="vRealize Orchestrator 7.6" value="vro-7_6"/>
             </choice>
@@ -20,8 +20,8 @@
                 <element inactive_on_update="false" label="Isilon Provisioning" value="Isilon Provisioning"/>
             </choice>
         </element>
-        <element label="SL1 Event Id" max_length="240" name="sl1_event_id" type="string"/>
-        <element label="SL1 Event Policy Id" max_length="240" name="sl1_event_policy_id" type="string"/>
+        <element label="SL1 Event Id" max_length="240" name="sl1_event_id" type="integer"/>
+        <element label="SL1 Event Policy Id" max_length="240" name="sl1_event_policy_id" type="integer"/>
         <element label="SL1 Event Policy Name" max_length="240" name="sl1_event_policy_name" type="string"/>
         <index name="index">
             <element name="asset_ref"/>
