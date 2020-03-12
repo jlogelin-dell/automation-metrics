@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Service Center Category" max_length="40" name="x_446314_automet_service_center_category" type="collection">
+        <element label="Name" max_length="240" name="name" type="string"/>
+    </element>
+</database>

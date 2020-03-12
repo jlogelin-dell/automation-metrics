@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Digital Services Automation Metrics App</description>
+        <device_type>browser</device_type>
+        <hint>Digital Services Automation Metrics App</hint>
+        <name/>
+        <order/>
+        <roles>x_446314_automet.publisher</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 17:37:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f523c603db5b0810fc3770e239961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automation Metrics</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_update_name>sys_app_application_f523c603db5b0810fc3770e239961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 17:37:19</sys_updated_on>
+        <title>Automation Metrics</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</application>
+        <file_path/>
+        <instance_id>dcb31d62dbf944943050ac44d49619b4</instance_id>
+        <instance_name>dev96322</instance_name>
+        <name>sys_app_application_f523c603db5b0810fc3770e239961958</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Digital Services Automation Metrics App</description>
+        <device_type>browser</device_type>
+        <hint>Digital Services Automation Metrics App</hint>
+        <name/>
+        <order/>
+        <roles>x_446314_automet.publisher</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-06 17:37:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f523c603db5b0810fc3770e239961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automation Metrics</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_update_name>sys_app_application_f523c603db5b0810fc3770e239961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-06 17:37:19</sys_updated_on>
+        <title>Automation Metrics</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>300980464</payload_hash>
+        <record_name>Automation Metrics</record_name>
+        <reverted_from/>
+        <source>5d37b9d42f6300107370d6ab2799b640</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-10 13:57:33</sys_created_on>
+        <sys_id>b137b9d42f6300107370d6ab2799b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170c4bc83790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-10 13:57:33</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>7137b9d46e630010edf18f627c744adf</update_guid>
+        <update_guid_history>7137b9d46e630010edf18f627c744adf:300980464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Automation Metrics">a91610c92fa780107370d6ab2799b6b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 14:48:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>4f566264f4b74332a677c969e48ec509</sys_id>
+        <sys_metadata>f523c603db5b0810fc3770e239961958</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automation Metrics</sys_name>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_scope_delete display_value="">07266785edc241bf87962f1f8822b8b1</sys_scope_delete>
+        <sys_update_name>sys_app_application_f523c603db5b0810fc3770e239961958</sys_update_name>
+        <sys_update_version display_value="sys_app_application_f523c603db5b0810fc3770e239961958">b137b9d42f6300107370d6ab2799b6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 14:48:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
