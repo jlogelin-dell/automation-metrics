@@ -5,6 +5,7 @@
             <choice/>
         </element>
         <element label="Customer" max_length="200" name="customer_ref" reference="core_company" type="reference"/>
+        <element label="Event Id" max_length="40" name="event_id" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Execution exception message" max_length="200" name="execution_exception_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution input" max_length="200" name="execution_input" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Execution name" max_length="140" name="execution_name" type="string"/>
@@ -13,9 +14,9 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service Center Category" max_length="140" name="sc_category" reference="x_446314_automet_service_center_category" type="reference">
             <choice/>
         </element>
-        <element label="SL1 Event Id" max_length="240" name="sl1_event_id" type="integer"/>
-        <element label="SL1 Event Policy Id" max_length="240" name="sl1_event_policy_id" type="integer"/>
-        <element label="SL1 Event Policy Name" max_length="240" name="sl1_event_policy_name" type="string"/>
+        <element label="Source Id" max_length="40" name="source_id" type="integer"/>
+        <element label="Source Name" max_length="240" name="source_name" type="string"/>
+        <element label="Use Case" max_length="240" name="use_case" type="string"/>
         <index name="index">
             <element name="asset_ref"/>
         </index>

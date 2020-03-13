@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Automation Product</name>
+        <order>100</order>
+        <roles>x_446314_automet.automation_product_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-11 16:09:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcfe13a82f6740107370d6ab2799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automation Product</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_update_name>sys_app_application_dcfe13a82f6740107370d6ab2799b63e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-11 16:09:13</sys_updated_on>
+        <title>Automation Product</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</application>
+        <file_path/>
+        <instance_id>dcb31d62dbf944943050ac44d49619b4</instance_id>
+        <instance_name>dev96322</instance_name>
+        <name>sys_app_application_dcfe13a82f6740107370d6ab2799b63e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Automation Product</name><order>100</order><roles>x_446314_automet.automation_product_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-11 16:09:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dcfe13a82f6740107370d6ab2799b63e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Automation Product</sys_name><sys_overrides/><sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package><sys_policy/><sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope><sys_update_name>sys_app_application_dcfe13a82f6740107370d6ab2799b63e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-11 16:09:13</sys_updated_on><title>Automation Product</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>473592740</payload_hash>
+        <record_name>Automation Product</record_name>
+        <reverted_from/>
+        <source>c447bd942f6300107370d6ab2799b672</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-11 16:09:13</sys_created_on>
+        <sys_id>dcfe13a82f6740107370d6ab2799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ca5b6a380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-11 16:09:13</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>18fe13a854674010261c44d50c6fe241</update_guid>
+        <update_guid_history>18fe13a854674010261c44d50c6fe241:473592740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Automation Product">6449d08d2fa780107370d6ab2799b637</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 15:02:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>5f78304f40b64d1eadcf2ac7a6ab89a4</sys_id>
+        <sys_metadata>dcfe13a82f6740107370d6ab2799b63e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automation Product</sys_name>
+        <sys_package display_value="Automation Metrics" source="x_446314_automet">1131cacfdb1b0810fc3770e2399619a1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automation Metrics">1131cacfdb1b0810fc3770e2399619a1</sys_scope>
+        <sys_scope_delete display_value="">07266785edc241bf87962f1f8822b8b1</sys_scope_delete>
+        <sys_update_name>sys_app_application_dcfe13a82f6740107370d6ab2799b63e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_dcfe13a82f6740107370d6ab2799b63e">dcfe13a82f6740107370d6ab2799b641</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 15:02:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
